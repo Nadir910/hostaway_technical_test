@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hostaway Technical Test">
+	<test name="Tests on Filters">
+		<classes>
+			<class name="com.hostaway.tests.FiltersTests" />
+		</classes>
+	</test>
+	<test name="Tests on All Listings">
+		<classes>
+			<class name="com.hostaway.tests.AllListingsTests" />
+		</classes>
+	</test>
+</suite>

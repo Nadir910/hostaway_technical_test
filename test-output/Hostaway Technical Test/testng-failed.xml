@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Hostaway Technical Test]" guice-stage="DEVELOPMENT">
+  <test name="Tests on All Listings(failed)">
+    <classes>
+      <class name="com.hostaway.tests.AllListingsTests">
+        <methods>
+          <include name="rightNumberOfResultsDisplayed"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.hostaway.tests.AllListingsTests -->
+    </classes>
+  </test> <!-- Tests on All Listings(failed) -->
+</suite> <!-- Failed suite [Hostaway Technical Test] -->

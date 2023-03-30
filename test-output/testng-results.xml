@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T23:40:47Z" name="Hostaway Technical Test" finished-at="2023-03-30T23:42:14Z" duration-ms="87564">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T23:40:47Z" name="Tests on Filters" finished-at="2023-03-30T23:42:00Z" duration-ms="72740">
+      <class name="com.hostaway.tests.FiltersTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:40:47Z" name="setup" finished-at="2023-03-30T23:40:55Z" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="areAllAmenitiesDisplayed()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:40:55Z" name="areAllAmenitiesDisplayed" description="All amenities displayed" finished-at="2023-03-30T23:40:56Z" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areAllAmenitiesDisplayed -->
+        <test-method signature="clearAllFilters()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:40:56Z" name="clearAllFilters" description="Clear all filters" finished-at="2023-03-30T23:41:16Z" duration-ms="19884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAllFilters -->
+        <test-method signature="fillInThePricesAfterHavingFilledInTheDates()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:16Z" name="fillInThePricesAfterHavingFilledInTheDates" description="Fill in the prices after having filled in the dates" finished-at="2023-03-30T23:41:20Z" duration-ms="4015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInThePricesAfterHavingFilledInTheDates -->
+        <test-method signature="fillInThePricesWithoutHavingFilledInTheDates()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:20Z" name="fillInThePricesWithoutHavingFilledInTheDates" description="Fill in the prices without having filled in the dates" finished-at="2023-03-30T23:41:20Z" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInThePricesWithoutHavingFilledInTheDates -->
+        <test-method signature="maximalPriceInputDisplayed()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:20Z" name="maximalPriceInputDisplayed" description="Maximal price input displayed" finished-at="2023-03-30T23:41:20Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximalPriceInputDisplayed -->
+        <test-method signature="minimalPriceInputDisplayed()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:20Z" name="minimalPriceInputDisplayed" description="Minimal price input displayed" finished-at="2023-03-30T23:41:21Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimalPriceInputDisplayed -->
+        <test-method signature="roomsAndBedsSelectorsDisplayed()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:21Z" name="roomsAndBedsSelectorsDisplayed" description="Rooms and beds selectors displayed" finished-at="2023-03-30T23:41:21Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomsAndBedsSelectorsDisplayed -->
+        <test-method signature="selectDeselectAllAmenities()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:21Z" name="selectDeselectAllAmenities" description="Select deselect amenities" finished-at="2023-03-30T23:41:23Z" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDeselectAllAmenities -->
+        <test-method signature="selectMaximumNumberOfBathrooms()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:23Z" name="selectMaximumNumberOfBathrooms" description="Select maximum number of bathrooms" finished-at="2023-03-30T23:41:29Z" duration-ms="6083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMaximumNumberOfBathrooms -->
+        <test-method signature="selectMaximumNumberOfBedrooms()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:29Z" name="selectMaximumNumberOfBedrooms" description="Select maximum number of bedrooms" finished-at="2023-03-30T23:41:35Z" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMaximumNumberOfBedrooms -->
+        <test-method signature="selectMaximumNumberOfBeds()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:35Z" name="selectMaximumNumberOfBeds" description="Select maximum number of beds" finished-at="2023-03-30T23:41:41Z" duration-ms="6105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMaximumNumberOfBeds -->
+        <test-method signature="selectMinimumNumberOfBathrooms()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:41Z" name="selectMinimumNumberOfBathrooms" description="Select minimum number of bathrooms" finished-at="2023-03-30T23:41:47Z" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMinimumNumberOfBathrooms -->
+        <test-method signature="selectMinimumNumberOfBedrooms()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:47Z" name="selectMinimumNumberOfBedrooms" description="Select minimum number of bedrooms" finished-at="2023-03-30T23:41:53Z" duration-ms="6098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMinimumNumberOfBedrooms -->
+        <test-method signature="selectMinimumNumberOfBeds()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:53Z" name="selectMinimumNumberOfBeds" description="Select minimum number of beds" finished-at="2023-03-30T23:41:59Z" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMinimumNumberOfBeds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hostaway.tests.FiltersTests@4d74c3ba]" started-at="2023-03-30T23:41:59Z" name="tearDown" finished-at="2023-03-30T23:42:00Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hostaway.tests.FiltersTests -->
+    </test> <!-- Tests on Filters -->
+    <test started-at="2023-03-30T23:42:00Z" name="Tests on All Listings" finished-at="2023-03-30T23:42:14Z" duration-ms="14737">
+      <class name="com.hostaway.tests.AllListingsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostaway.tests.AllListingsTests@50d3bf39]" started-at="2023-03-30T23:42:00Z" name="setup" finished-at="2023-03-30T23:42:04Z" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="rightNumberOfResultsDisplayed()[pri:0, instance:com.hostaway.tests.AllListingsTests@50d3bf39]" started-at="2023-03-30T23:42:04Z" name="rightNumberOfResultsDisplayed" description="Right number of results displayed" finished-at="2023-03-30T23:42:14Z" duration-ms="9877" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The number of results returned does not match the number displayed in the label expected [66] but found [65]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The number of results returned does not match the number displayed in the label expected [66] but found [65]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:652)at com.hostaway.tests.AllListingsTests.rightNumberOfResultsDisplayed(AllListingsTests.java:51)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:566)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightNumberOfResultsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hostaway.tests.AllListingsTests@50d3bf39]" started-at="2023-03-30T23:42:14Z" name="tearDown" finished-at="2023-03-30T23:42:14Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hostaway.tests.AllListingsTests -->
+    </test> <!-- Tests on All Listings -->
+  </suite> <!-- Hostaway Technical Test -->
+</testng-results>
